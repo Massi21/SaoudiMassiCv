@@ -55,27 +55,13 @@ export default function App() {
   const classes = useStyles();
   return (
     <Paper className={classes.root}>
-      <Button
-        variant="contained"
-        color="secondary"
-        startIcon={<CloudDownloadIcon fontSize="large" />}
-        fullWidth
-      >
-        <Link
-          href="https://drive.google.com/file/d/1yHIvIYtAL6Io7kMHp-ArfS69wbPBiaYH/view?usp=sharing"
-          rel="noopener noreferrer"
-          target="_blank"
-          className={classes.telechargement}
-        >
-          Download As PDF
-        </Link>
-      </Button>
+
       <GridList cellHeight="auto" cols={w650 ? (2) : (1)} >
         <GridListTile key="photo">
           <img src={Photo} width={"100%"} height={"100%"} alt="Naili Massinissa" />
         </GridListTile>
         <GridListTile key="info">
-          <Typography variant="h1" className={classes.name}> NAILI </Typography>
+          <Typography variant="h1" className={classes.name}> SAOUDI </Typography>
           <Typography variant="h2" className={classes.name}> Massinissa </Typography>
           <Card className={classes.apropos}>
             <CardContent>
@@ -99,49 +85,49 @@ export default function App() {
           <Box display="flex" padding={1} alignItems="center">
             <Event className={classes.petitesIcons} />
             <Typography className={classes.textAfterICon} variant="h6">
-              11 Juin 1997 à Azazga
+              21 September 1996, Algiers
             </Typography>
           </Box>
           <Box display="flex" padding={1} alignItems="center">
             <PersonPinCircle className={classes.petitesIcons} />
             <Typography className={classes.textAfterICon} variant="h6">
-              VGE Tigounatine, Akerrou, Azeffoun, Tizi-Ouzou
+              VGE Tigrourine, Akerrou, Azeffoun, Tizi-Ouzou
             </Typography>
           </Box>
           <Box display="flex" padding={1} alignItems="center">
             <PhoneInTalk className={classes.petitesIcons} />
             <Typography className={classes.textAfterICon} variant="h6">
-              +213 672 13 13 95
+              +213 659 00 88 90
             </Typography>
           </Box>
           <Box display="flex" padding={1} alignItems="center">
             <ContactMail className={classes.petitesIcons} />
             <Link className={classes.textAfterICon} color="inherit" variant="h6"
-              href="mailto:macinaili97.mn@gmail.com"
+              href="Saoudi.massinissa3@gmail.com"
               rel="noopener noreferrer"
               target="_blank"
             >
-              macinaili97.mn@gmail.com
+              Saoudi.massinissa3@gmail.com
             </Link>
           </Box>
           <Box display="flex" padding={1} alignItems="center">
             <LinkedIn className={classes.petitesIcons} />
             <Link className={classes.textAfterICon} color="inherit" variant="h6"
-              href="https://www.linkedin.com/in/massinaili/"
+              href="https://www.linkedin.com/in/saoudi-massinissa/"
               rel="noopener noreferrer"
               target="_blank"
             >
-              linkedin.com/in/massinaili/
+            linkedin.com/in/saoudi-massinissa
             </Link>
           </Box>
           <Box display="flex" padding={1} alignItems="center">
             <GitHub className={classes.petitesIcons} />
             <Link className={classes.textAfterICon} color="inherit" variant="h6"
-              href="https://github.com/MassinissaNaili"
+              href="https://github.com/Massi21"
               rel="noopener noreferrer"
               target="_blank"
             >
-              github.com/MassinissaNaili
+              github.com/Massi21
             </Link>
           </Box>
         </GridListTile>
@@ -301,6 +287,12 @@ export default function App() {
               </Typography>
               <Rating value={3.5} precision={0.5} size="large" readOnly />
             </Box>
+            <Box display="flex" alignItems="center" justifyContent="space-between">
+              <Typography variant="h6">
+                PostgreSQL
+              </Typography>
+              <Rating value={3.5} precision={0.5} size="large" readOnly />
+            </Box>
           </Card>
         </Grid>
         <Grid item xs={w570 ? (6) : (12)}>
@@ -407,11 +399,11 @@ export default function App() {
           </Box>
           <Card elevation={0} className={classes.description}>
             <Typography variant="h6">
-              Jeu d'échecs
+              Music
             </Typography>
             <Divider variant="middle" className={classes.divide} />
             <Typography variant="h6">
-              Jeu de scrabbles
+              Football
             </Typography>
             <Divider variant="middle" className={classes.divide} />
             <Typography variant="h6">
