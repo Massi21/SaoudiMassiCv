@@ -6,4 +6,4 @@
 
 ## You can view the online demo at :
 
-https://massinaili.vercel.app/
+https://saoudi-massinissa-cv.vercel.app/
